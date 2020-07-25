@@ -1,0 +1,16 @@
+<?php
+  if(isset($_REQUEST['b']))
+ {
+    $a=$_REQUEST['t1'];
+    $b=$_REQUEST['t2'];
+	$op=$_REQUEST['op'];
+	if($op=="+")
+	   print($a+$b);
+    if($op=="-")
+	   print($a-$b);
+    if($op=="*")
+	   print($a*$b);
+    if($op=="/")
+	   print($a/$b);
+ }
+ ?>
